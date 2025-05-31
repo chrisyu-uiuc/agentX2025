@@ -36,24 +36,8 @@ pip install flask flask-cors google-generativeai sqlite3 python-dotenv
 
 2. Running the Application
 Save the Python code as agent.py and run it:
-
 python agent.py
-
 This will start the Flask server at http://localhost:5000.
-
-Expected Output:
-🚀 Gemini SQLite Chat REST API
-📡 Server: http://0.0.0.0:5000
-📋 Available Endpoints:
-  • GET  /api/health              - Health check
-  • POST /api/chat                - Chat with the bot
-  • GET  /api/database/status     - Database overview
-  • GET  /api/database/schema     - Database schema
-  • GET  /api/chat/history        - Chat history
-  • POST /api/database/query      - Direct SQL queries
-  • POST /api/database/populate   - Populate with sample data
-  • POST /api/database/clear      - Clear database tables
-  • POST /api/database/backup     - Backup database
 
 3. Accessing the Web UI
 Open your browser and navigate to:
